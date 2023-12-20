@@ -1,0 +1,11 @@
+select *
+from superstore
+order by price;
+
+select max(price), item_name
+from superstore
+order by item_name desc;
+
+select category, item_name, max (price)
+from superstore
+Where category = 'Kitchen Supplies'; 
